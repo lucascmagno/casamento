@@ -25,14 +25,18 @@ h1, h2 {
 
 .hero {
   position: relative;
-  height: 80vh;
+  max-height: 80vh;
+  background-image: url("./assets/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 915px;
+
 }
+
 
 /* Overlay suave */
 .hero-overlay {
