@@ -168,3 +168,18 @@ h1, h2 {
   height: 230px;
   object-fit: cover;
 }
+
+/*MAPA*/
+/* MAPA RESPONSIVO */
+.map-responsive {
+  overflow: hidden;
+  padding-radius: 16px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.map-responsive iframe {
+  width: 100%;
+  border: 0;
+  border-radius: 16px;
+}
