@@ -2,6 +2,7 @@
   --gold: #d4af37;
   --rose: #f4e1e6;
   --text: #4a4a4a;
+  --gold: #C9A24D;
 }
 
 body {
@@ -173,7 +174,6 @@ h1, h2 {
 /* MAPA RESPONSIVO */
 .map-responsive {
   overflow: hidden;
-  padding-radius: 16px;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
@@ -182,4 +182,23 @@ h1, h2 {
   width: 100%;
   border: 0;
   border-radius: 16px;
+}
+
+/* TEXTO DOS NOMES DOS NOIVOS */
+
+.nomes-noivos {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: var(--gold);
+  background: linear-gradient(90deg, var(--gold), #b89b2f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .nomes-noivos {
+    font-size: 2.3rem;
+  }
 }
