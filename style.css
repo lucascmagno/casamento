@@ -148,3 +148,32 @@ h1, h2 {
   font-family: 'Playfair Display', serif;
   color: var(--gold);
 }
+
+/* DECORAÇÃO */
+.decor-card {
+  border-radius: 18px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.decor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.decor-card .card-title {
+  font-family: 'Playfair Display', serif;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.decor-card .card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.decor-card img {
+  height: 230px;
+  object-fit: cover;
+}
