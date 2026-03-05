@@ -139,3 +139,12 @@ h1, h2 {
   border: 2px solid var(--gold);
   background: linear-gradient(to bottom, #fff, #fdf7ef);
 }
+
+.modal-content {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.modal-title {
+  font-family: 'Playfair Display', serif;
+  color: var(--gold);
+}
